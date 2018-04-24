@@ -2,7 +2,7 @@
 
 This repo contains the getting and cleaning data peer review assigment.
 
-#Data source
+Data source
 
 The data used in the script below comes from UC Irvine's Human Activity Recognition Using Smartphones Data Set. The data used is here:
 
@@ -12,16 +12,16 @@ More information about the data can be found here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##Script
+Script
 
 The script used is called run_analysis.R.
 
-##Requirements
+Requirements
 
 Prior to running of the script, the data files should be in the working directory. 
 
 
-##Step by step explanation of the script
+Step by step explanation of the script
 
 1. Load required packages.
 
@@ -86,7 +86,7 @@ since the original data has some other columns with "Mean" in their names which 
         write.table(cleandata, file="tidy_data.txt", row.name=FALSE) 
 
 
-#Code Book
+Code Book
 
 The data columns are:
 
